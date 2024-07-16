@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #e4d9d3;
+}
+/* html,
+body
+{
+    overflow: hidden;
+} */
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  height: 83vh;
+  position: relative;
+  font-family: "Cabin", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 4vmin;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+section:nth-child(odd) {
+  justify-content: flex-end;
+}
+
+.heading {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 4.8vmin;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 20px;
+  word-spacing: 2rem;
+}
+
+.links a {
+  font-family: "Monoton", sans-serif;
+  color: rgb(84, 84, 154);
+  font-size: 1.8vmin;
+  text-decoration: none;
+  justify-content: left;
+  text-align: left;
+  margin-left: 131px;
+  cursor: grabbing;
+}
+
+pre {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4.8vmin;
+  align-items: right;
+  justify-content: right;
+}
+
+.about-me {
+  font-family: "Yatra One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  text-align: justify;
+  width: 22%;
+  font-size: 1.4rem;
+  margin-left: 164px;
+  margin-top: 70px;
+}
+
+.image {
+  text-align: center;
+  align-items: center;
+}
