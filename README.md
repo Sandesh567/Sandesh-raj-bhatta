@@ -1,2 +1,4 @@
 # Sandesh-raj-bhatta
-personal landing page using three.js
+Personal landing page using three.js
+
+Only essential file is uplaoded here.
